@@ -1,5 +1,7 @@
 let getProducts = function() {
-    let result = fetch("/Front End Candy Shop/products.json");
+    let result = fetch("/Front End Candy Shop/products.json").then(result => {
+        return result.json();
+    })
     let data = result
 
     let products = data.items;
