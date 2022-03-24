@@ -1,0 +1,67 @@
+{
+    "items": [{
+            "sys": { "id": "1" },
+            "fields": {
+                "title": "Snickers",
+                "price": 2.25,
+                "image": { "fields": { "file": { "url": "./images/product-1.jpeg" } } }
+            }
+        },
+        {
+            "sys": { "id": "2" },
+            "fields": {
+                "title": "Twix",
+                "price": 1.65,
+                "image": { "fields": { "file": { "url": "./images/product-2.jpeg" } } }
+            }
+        },
+        {
+            "sys": { "id": "3" },
+            "fields": {
+                "title": "Sour Patch Kids",
+                "price": 2.40,
+                "image": { "fields": { "file": { "url": "./images/product-3.jpeg" } } }
+            }
+        },
+        {
+            "sys": { "id": "4" },
+            "fields": {
+                "title": "Sweet Tarts",
+                "price": 1.99,
+                "image": { "fields": { "file": { "url": "./images/product-4.jpeg" } } }
+            }
+        },
+        {
+            "sys": { "id": "5" },
+            "fields": {
+                "title": "M&M's",
+                "price": 1.50,
+                "image": { "fields": { "file": { "url": "./images/product-5.jpeg" } } }
+            }
+        },
+        {
+            "sys": { "id": "6" },
+            "fields": {
+                "title": "Butterfinger",
+                "price": 2.20,
+                "image": { "fields": { "file": { "url": "./images/product-6.jpeg" } } }
+            }
+        },
+        {
+            "sys": { "id": "7" },
+            "fields": {
+                "title": "Payday",
+                "price": 1.75,
+                "image": { "fields": { "file": { "url": "./images/product-7.jpeg" } } }
+            }
+        },
+        {
+            "sys": { "id": "8" },
+            "fields": {
+                "title": "Toblerone",
+                "price": 2.99,
+                "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } }
+            }
+        }
+    ]
+}

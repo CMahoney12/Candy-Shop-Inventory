@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="bi bi-list"></i>
+            </span>
+            <h1>Candy<span class="nav-shop-color">Shop</span></h1>
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="bi bi-cart-plus"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">Candy Selection</h1>
+            <a href="/Front End Candy Shop/shopPage/index.html"><button class="banner-btn">shop now</button></a>
+        </div>
+    </header>
+    <section class="products row">
+        <div class="section-title">
+            <h2>Favorite Products</h2>
+        </div>
+        <div class="products-center col">
+            <article class="product">
+                <div class="img-container">
+                    <img src="/Front End Candy Shop/assets/images/candy.jpg" alt="product 1 image" class="product-img">
+                    <button class="bag-btn">
+                        <i class="bi bi-cart-plus"></i>
+                        add to cart
+                    </button>
+                </div>
+                <h3>Candy Item 1</h3>
+                <h4>$3.99</h4>
+            </article>
+        </div>
+        <div class="products-center col">
+            <article class="product">
+                <div class="img-container">
+                    <img src="/Front End Candy Shop/assets/images/candy.jpg" alt="product 1 image" class="product-img">
+                    <button class="bag-btn">
+                        <i class="bi bi-cart-plus"></i>
+                        add to cart
+                    </button>
+                </div>
+                <h3>Candy Item 2</h3>
+                <h4>$3.99</h4>
+            </article>
+        </div>
+        <div class="products-center col">
+            <article class="product">
+                <div class="img-container">
+                    <img src="/Front End Candy Shop/assets/images/candy.jpg" alt="product 1 image" class="product-img">
+                    <button class="bag-btn">
+                        <i class="bi bi-cart-plus"></i>
+                        add to cart
+                    </button>
+                </div>
+                <h3>Candy Item 3</h3>
+                <h4>$3.99</h4>
+            </article>
+        </div>
+
+    </section>
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="bi bi-x-square"></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="cart-content">
+                <div class="cart-item">
+                    <img src="/Front End Candy Shop/assets/images/candy.jpg" alt="product 1 image" />
+                    <div>
+                        <h4>Candy Item 1</h4>
+                        <h5>$3.99</h5>
+                        <span class="remove-item">remove</span>
+                    </div>
+                    <div>
+                        <i class="bi bi-chevron-up"></i>
+                        <p class="item-amount">1</p>
+                        <i class="bi bi-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-footer">
+                <h3>your total : $ <span class="cart-total">0
+                </span></h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</body>
+
+</html>
