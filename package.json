@@ -8,6 +8,7 @@
     "express-session": "^1.17.2",
     "express-validator": "^6.14.0",
     "mysql2": "^2.3.3",
+    "passport": "^0.5.2",
     "sequelize": "^6.17.0"
   },
   "scripts": {
@@ -17,7 +18,6 @@
   "description": "Your project should fulfill the following requirements:",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CMahoney12/Candy-Shop-E-Commerce.git"
