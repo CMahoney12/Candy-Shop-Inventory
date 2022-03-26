@@ -32,7 +32,7 @@ const sess = {
 // Sets up the Express App
 // =============================================================
 var app = express();
-var PORT = process.env.PORT || 8090;
+var PORT = process.env.PORT || 3306;
 
 // compress all responses
 // app.use(compression())

@@ -1,6 +1,6 @@
 const { Candy } = require('../models');
 
-const CandyData = [
+const candyData = [
     {
         title: 'Take 5', 
         price: 2.25,
@@ -73,6 +73,6 @@ const CandyData = [
     }
 ]
 
-const seedCandies = () => Candy.bulkCreate(CandyData);
+const seedCandies = () => Candy.bulkCreate(candyData);
 
 module.exports = seedCandies;

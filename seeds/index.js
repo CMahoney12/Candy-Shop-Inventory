@@ -1,4 +1,4 @@
-const seedCandies = require('./candy-seeds');
+const seedCandies = require('./candy-seeds.js');
 
 const sequelize = require('../config/connection');
 

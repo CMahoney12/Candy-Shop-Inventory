@@ -1,5 +1,5 @@
 // import important parts of sequelize library
-const { Model, Datatypes } = require('sequelize');
+const { Model, DataTypes } = require('sequelize');
 // import our database connection from config.js
 const sequelize = require('../config/connection');
 
@@ -29,6 +29,13 @@ Candy.init(
         filename: {
             type: DataTypes.STRING,
             allowNull: false
+        }, 
+        user_id: {
+            type: DataTypes.INTEGER,
+            references: {
+                model: 'user',
+                key: 'id'
+            }
         }
     },
     {
