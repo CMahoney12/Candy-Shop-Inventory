@@ -12,7 +12,8 @@
     "sequelize": "^6.17.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
   },
   "name": "candy-shop-e-commerce",
   "description": "Your project should fulfill the following requirements:",

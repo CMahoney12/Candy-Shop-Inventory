@@ -1,5 +1,7 @@
 # Candy-Shop-Inventory
 
+deployed website: https://candy-shop-e-commerce.herokuapp.com/
+
 Your project should fulfill the following requirements:
 
 Use Node.js and Express.js to create a RESTful API.
