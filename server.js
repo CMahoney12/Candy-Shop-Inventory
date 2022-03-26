@@ -4,12 +4,12 @@
 // ******************************************************************************
 // *** Dependencies
 // =============================================================
-var express = require("express");
-var path = require("path")
+const express = require("express");
+const path = require("path")
 const routes = require('./controllers');
 const sequelize = require('./config/connection');
-// var exphbs = require("express-handlebars");
-var session = require("express-session");
+const exphbs = require("express-handlebars");
+const session = require("express-session");
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 // Requiring passport as we've configured it
@@ -31,8 +31,10 @@ const sess = {
 
 // Sets up the Express App
 // =============================================================
-var app = express();
-var PORT = process.env.PORT || 3001;
+const app = express();
+const PORT = process.env.PORT || 3001;
+
+const hbs = exphbs.create({});
 
 // compress all responses
 // app.use(compression())
@@ -44,7 +46,7 @@ var PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// app.engine("handlebars", hbs.engine);
+app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
 
 app.use(express.json());
