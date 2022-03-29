@@ -55,6 +55,7 @@ app.use(session(sess));
 
 // Static directory
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/uploads', express.static('uploads'));
 
 // app.use(passport.initialize());
 // app.use(passport.session());

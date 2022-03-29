@@ -37,8 +37,64 @@ router.get('/:id', (req, res) => {
         });
 });
 
+router.post('/', (req, res) => {
+  Candy.create({
+      title: req.body.title,
+      price: req.body.price,
+      quantity: req.body.quantity,
+      filename: req.body.filename
+  })
+      .then(dbCandyData => res.json(dbCandyData))
+      .catch(err => {
+          console.log(err);
+          res.status(500).json(err);
+      });
+});
 
+router.put('/:id', (req, res) => {
+  Candy.update(
+    {
+      title: req.body.title,
+      price: req.body.price,
+      quantity: req.body.quantity
+    },
+    {
+        where: {
+            id: req.params.id
+        }
+    }
+  )
+      .then(dbCandyData => {
+          if (!dbCandyData) {
+              res.status(404).json({ message: 'No candy found with this id' });
+              return;
+          }
+          res.json(dbCandyData);
+      })
+      .catch(err => {
+          console.log(err);
+          res.status(500).json(err);
+      });
+});
 
+router.delete('/:id', (req, res) => {
+  Candy.destroy({
+    where: {
+      id: req.params.id
+    }
+  })
+      .then(dbCandyData => {
+          if (!dbCandyData) {
+              res.status(404).json({ message: 'No candy found with this id' });
+              return;
+          }
+          res.json(dbCandyData);
+      })
+      .catch(err => {
+          console.log(err);
+          res.status(500).json(err);
+      });
+});
 
 
 

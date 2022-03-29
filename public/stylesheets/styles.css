@@ -134,6 +134,7 @@ body {
 .img-container {
     position: relative;
     overflow: hidden;
+    margin-top: 2rem;
 }
 
 .bag-btn {
@@ -289,4 +290,37 @@ body {
 .cart-footer h3 {
     text-transform: capitalize;
     margin-bottom: 1rem;
+}
+
+.input-group {
+    margin: 1rem;
+}
+
+.edit-box {
+    margin-left: 1rem;
+    width: 8rem;
+}
+
+button {
+    background-color: #fcbf49;
+    border: 0;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    transition: background-color .1s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 3.5rem;
+}
+
+.img-input {
+    background-color: white;
+    border: 1;
+    padding: 1%;
+    color: #222;
+    font-weight: bold;
+    transition: background-color .1s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0.5rem;
 }

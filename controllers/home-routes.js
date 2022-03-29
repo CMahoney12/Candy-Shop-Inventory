@@ -44,7 +44,7 @@ router.get('/candies/:id', (req, res) => {
             const candy = dbCandyData.get({ plain: true });
 
             // pass data to template
-            res.render('single-candy', { 
+            res.render('edit-candy', { 
               candy,
             });
         })

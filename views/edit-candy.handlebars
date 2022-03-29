@@ -1,0 +1,26 @@
+<div class="products-center col">
+    <article class="product">
+        <div class="img-container">
+            <img src="/images/candy.jpg" alt="product 1 image" class="product-img">
+        </div>
+
+        <form class="edit-candy-form">
+            <div class="input-group">
+                Name: <input class="edit-box" name="candy-title" type="text" value="{{ candy.title }}" />
+            </div>
+            <div class="input-group input-group-lg">
+                Price: <textarea class="edit-box" name="price">{{ candy.price }}</textarea>
+            </div>
+            <div class="input-group input-group-lg">
+                Qty: <textarea class="edit-box" name="quantity">{{ candy.quantity }}</textarea>
+            </div>
+            <button type="submit">Save</button>
+            <button type="button" class="delete-candy-btn">Delete</button>
+        </form>
+    </article>
+</div>
+
+<script src="/javascript/edit-candy.js"></script>
+<script src="/javascript/delete-candy.js"></script>
+
+
