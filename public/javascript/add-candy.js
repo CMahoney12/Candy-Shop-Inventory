@@ -2,15 +2,16 @@ async function newFormHandler(event) {
     event.preventDefault();
   
     const title = document.querySelector('input[name="candy-title"]').value;
-    const price = document.querySelector('textarea[name="price"]').value;
-    const quantity = document.querySelector('textarea[name="quantity"]').value;
+    const price = document.querySelector('input[name="price"]').value;
+    const quantity = document.querySelector('input[name="quantity"]').value;
 
   
     const response = await fetch(`/api/candies`, {
       method: 'POST',
       body: JSON.stringify({
         title,
-        price
+        price,
+        quantity
       }),
       headers: {
         'Content-Type': 'application/json'
@@ -24,4 +25,4 @@ async function newFormHandler(event) {
     }
   }
   
-  document.querySelector('.new-post-form').addEventListener('submit', newFormHandler);
+  document.querySelector('.new-candy-form').addEventListener('submit', newFormHandler);

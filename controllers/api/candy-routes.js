@@ -42,7 +42,7 @@ router.post('/', (req, res) => {
       title: req.body.title,
       price: req.body.price,
       quantity: req.body.quantity,
-      filename: req.body.filename
+      // filename: req.body.filename
   })
       .then(dbCandyData => res.json(dbCandyData))
       .catch(err => {

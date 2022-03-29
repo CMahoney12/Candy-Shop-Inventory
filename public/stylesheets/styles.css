@@ -324,3 +324,12 @@ button {
     border-radius: 5px;
     margin: 0.5rem;
 }
+
+.form-control {
+    margin: 1rem;
+}
+
+.add-btn {
+    margin-left: 0;
+    margin-bottom: 2rem;
+}
