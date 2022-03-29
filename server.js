@@ -20,13 +20,13 @@ const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 // session
 const sess = {
-  secret: 'Super secret secret',
-  cookie: { maxAge: 60000 },
-  resave: false,
-  saveUninitialized: true,
-  store: new SequelizeStore({
-    db: sequelize
-  })
+    secret: 'Super secret secret',
+    cookie: { maxAge: 60000 },
+    resave: false,
+    saveUninitialized: true,
+    store: new SequelizeStore({
+        db: sequelize
+    })
 };
 
 // Sets up the Express App
@@ -64,6 +64,6 @@ app.use(routes);
 
 // turn on connection to db and server
 sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () =>
-    console.log("==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.", PORT, PORT));
+    app.listen(PORT, () =>
+        console.log("==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.", PORT, PORT));
 });
