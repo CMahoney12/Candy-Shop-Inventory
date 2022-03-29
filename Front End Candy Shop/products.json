@@ -1,243 +1,183 @@
 {
     "items": [{
-            "sys": { "id": "1" },
-            "fields": {
-                "title": "Take 5",
-                "price": 2.25,
-                "image": { "fields": { "file": { "url": "https://static.onecms.io/wp-content/uploads/sites/9/2019/06/reeses-take5-bar-wrappers-FT-BLOG0619.jpg" } } }
-            }
+            "id": "1",
+            "title": "Take 5",
+            "price": 2.25,
+            "image": "https://static.onecms.io/wp-content/uploads/sites/9/2019/06/reeses-take5-bar-wrappers-FT-BLOG0619.jpg"
         },
         {
-            "sys": { "id": "2" },
-            "fields": {
-                "title": "Butterfinger",
-                "price": 1.65,
-                "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/81d2wbt59RL._SL1500_.jpg" } } }
-            }
+            "id": "2",
+            "title": "Butterfinger",
+            "price": 1.65,
+            "image": "https://m.media-amazon.com/images/I/81d2wbt59RL._SL1500_.jpg"
         },
         {
-            "sys": { "id": "3" },
-            "fields": {
-                "title": "Payday",
-                "price": 2.40,
-                "image": { "fields": { "file": { "url": "https://www.candywarehouse.com/item-images/127156-01_payday-king-size-candy-bars-18-piece-box.jpg?resizeid=102&resizeh=500&resizew=500" } } }
-            }
+            "id": "3",
+            "title": "Payday",
+            "price": 2.40,
+            "image": "https://www.candywarehouse.com/item-images/127156-01_payday-king-size-candy-bars-18-piece-box.jpg?resizeid=102&resizeh=500&resizew=500"
         },
         {
-            "sys": { "id": "4" },
-            "fields": {
-                "title": "Snickers",
-                "price": 1.99,
-                "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/71+r1gAwsZL._SX522_.jpg" } } }
-            }
+            "id": "4",
+            "title": "Snickers",
+            "price": 1.99,
+            "image": "https://m.media-amazon.com/images/I/71+r1gAwsZL._SX522_.jpg"
         },
         {
-            "sys": { "id": "5" },
-            "fields": {
-                "title": "Toblerone",
-                "price": 1.50,
-                "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/710HtXwbcBL._SX679_.jpg" } } }
-            }
+            "id": "5",
+            "title": "Toblerone",
+            "price": 1.50,
+            "image": "https://m.media-amazon.com/images/I/710HtXwbcBL._SX679_.jpg"
         },
         {
-            "sys": { "id": "6" },
-            "fields": {
-                "title": "Twix",
-                "price": 2.20,
-                "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/71IBchCAjdL._SX679_PIbundle-12,TopRight,0,0_SX679SY480SH20_.jpg" } } }
-            }
+            "id": "6",
+            "title": "Twix",
+            "price": 2.20,
+            "image": "https://m.media-amazon.com/images/I/71IBchCAjdL._SX679_PIbundle-12,TopRight,0,0_SX679SY480SH20_.jpg"
         },
         {
-            "sys": { "id": "7" },
-            "fields": {
-                "title": "Baby Ruth",
-                "price": 1.75,
-                "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/71iD8lXPu9L._SL1500_.jpg" } } }
-            }
+            "id": "7",
+            "title": "Baby Ruth",
+            "price": 1.75,
+            "image": "https://m.media-amazon.com/images/I/71iD8lXPu9L._SL1500_.jpg"
         },
         {
-            "sys": { "id": "8" },
-            "fields": {
-                "title": "Whatchamacallit",
-                "price": 2.99,
-                "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/91p1VIXXVmL._SX425_PIbundle-6,TopRight,0,0_AA425SH20_.jpg" } } }
-            }
+            "id": "8",
+            "title": "Whatchamacallit",
+            "price": 2.99,
+            "image": "https://m.media-amazon.com/images/I/91p1VIXXVmL._SX425_PIbundle-6,TopRight,0,0_AA425SH20_.jpg"
         },
         {
-            "sys": { "id": "9" },
-            "fields": {
-                "title": "Charleston Chew",
-                "price": 1.65,
-                "image": { "fields": { "file": { "url": "https://www.candywarehouse.com/item-images/128478-01_vanilla-charleston-chew-candy-bars-24-piece-box.jpg" } } }
-            }
+            "id": "9",
+            "title": "Charleston Chew",
+            "price": 1.65,
+            "image": "https://www.candywarehouse.com/item-images/128478-01_vanilla-charleston-chew-candy-bars-24-piece-box.jpg"
         },
         {
-            "sys": { "id": "10" },
-            "fields": {
-                "title": "Oh Henry!",
-                "price": 2.40,
-                "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/71QXdpxtDOL._SL1500_.jpg" } } }
-            }
+            "id": "10",
+            "title": "Oh Henry!",
+            "price": 2.40,
+            "image": "https://m.media-amazon.com/images/I/71QXdpxtDOL._SL1500_.jpg"
         },
         {
-            "sys": { "id": "11" },
-            "fields": {
-                "title": "Cadbury Flake",
-                "price": 1.99,
-                "image": { "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/1112/2128/products/cadbury-flake-british-chocolate-bars-candy-district-online-candy-store-toronto_1024x_aac8628e-4b3d-48d1-8595-0978b12d2a54.jpg?v=1586219841" } } }
-            }
+            "id": "11",
+            "title": "Cadbury Flake",
+            "price": 1.99,
+            "image": "https://cdn.shopify.com/s/files/1/1112/2128/products/cadbury-flake-british-chocolate-bars-candy-district-online-candy-store-toronto_1024x_aac8628e-4b3d-48d1-8595-0978b12d2a54.jpg?v=1586219841"
         },
         {
-            "sys": { "id": "12" },
-            "fields": {
-                "title": "Kit Kat",
-                "price": 1.50,
-                "image": { "fields": { "file": { "url": "https://i5.walmartimages.com/asr/ceaefb20-66fd-4e8d-afa4-721bd148be50_1.caca1089569b0608419aeab7d1ec7a73.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" } } }
-            }
+            "id": "12",
+            "title": "Kit Kat",
+            "price": 1.50,
+            "image": "https://i5.walmartimages.com/asr/ceaefb20-66fd-4e8d-afa4-721bd148be50_1.caca1089569b0608419aeab7d1ec7a73.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
         },
         {
-            "sys": { "id": "13" },
-            "fields": {
-                "title": "Heath",
-                "price": 2.20,
-                "image": { "fields": { "file": { "url": "https://truetreatscandy.com/wp-content/uploads/2017/03/heath-bar.jpg" } } }
-            }
+            "id": "13",
+            "title": "Heath",
+            "price": 2.20,
+            "image": "https://truetreatscandy.com/wp-content/uploads/2017/03/heath-bar.jpg"
         },
         {
-            "sys": { "id": "14" },
-            "fields": {
-                "title": "Almond Joy",
-                "price": 1.75,
-                "image": { "fields": { "file": { "url": "https://www.candywarehouse.com/item-images/127401-01_almond-joy-snack-size-candy-bars-18-piece-bag.jpg" } } }
-            }
+            "id": "14",
+            "title": "Almond Joy",
+            "price": 1.75,
+            "image": "https://www.candywarehouse.com/item-images/127401-01_almond-joy-snack-size-candy-bars-18-piece-bag.jpg"
         },
         {
-            "sys": { "id": "15" },
-            "fields": {
-                "title": "Hershey’s Special Dark",
-                "price": 2.99,
-                "image": { "fields": { "file": { "url": "https://images.heb.com/is/image/HEBGrocery/000740751" } } }
-            }
+            "id": "15",
+            "title": "Hershey’s Special Dark",
+            "price": 2.99,
+            "image": "https://images.heb.com/is/image/HEBGrocery/000740751"
         },
         {
-            "sys": { "id": "16" },
-            "fields": {
-                "title": "Chunky",
-                "price": 1.65,
-                "image": { "fields": { "file": { "url": "https://www.candyconceptsinc.com/assets/images/Giant-chunky-bar-1B.jpg" } } }
-            }
+            "id": "16",
+            "title": "Chunky",
+            "price": 1.65,
+            "image": "https://www.candyconceptsinc.com/assets/images/Giant-chunky-bar-1B.jpg"
         },
         {
-            "sys": { "id": "17" },
-            "fields": {
-                "title": "Mounds",
-                "price": 2.40,
-                "image": { "fields": { "file": { "url": "https://www.candywarehouse.com/item-images/127400-01_mounds-snack-size-candy-bars-18-piece-bag.jpg" } } }
-            }
+            "id": "17",
+            "title": "Mounds",
+            "price": 2.40,
+            "image": "https://www.candywarehouse.com/item-images/127400-01_mounds-snack-size-candy-bars-18-piece-bag.jpg"
         },
         {
-            "sys": { "id": "18" },
-            "fields": {
-                "title": "Bounty",
-                "price": 1.99,
-                "image": { "fields": { "file": { "url": "https://grandpajoescandyshop.com/wp-content/uploads/2021/09/Bounty-Bar.jpg" } } }
-            }
+            "id": "18",
+            "title": "Bounty",
+            "price": 1.99,
+            "image": "https://grandpajoescandyshop.com/wp-content/uploads/2021/09/Bounty-Bar.jpg"
         },
         {
-            "sys": { "id": "19" },
-            "fields": {
-                "title": "Nestle Crunch",
-                "price": 1.50,
-                "image": { "fields": { "file": { "url": "https://images.heb.com/is/image/HEBGrocery/000098268" } } }
-            }
+            "id": "19",
+            "title": "Nestle Crunch",
+            "price": 1.50,
+            "image": "https://images.heb.com/is/image/HEBGrocery/000098268"
         },
         {
-            "sys": { "id": "20" },
-            "fields": {
-                "title": "100 Grand",
-                "price": 2.20,
-                "image": { "fields": { "file": { "url": "https://www.riteaid.com/shop/media/catalog/product/0/2/028000206307.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406" } } }
-            }
+            "id": "20",
+            "title": "100 Grand",
+            "price": 2.20,
+            "image": "https://www.riteaid.com/shop/media/catalog/product/0/2/028000206307.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406"
         },
         {
-            "sys": { "id": "21" },
-            "fields": {
-                "title": "5th Avenue",
-                "price": 1.75,
-                "image": { "fields": { "file": { "url": "https://www.candywarehouse.com/item-images/125008-01_5th-avenue-candy-bars-18-piece-box.jpg" } } }
-            }
+            "id": "21",
+            "title": "5th Avenue",
+            "price": 1.75,
+            "image": "https://www.candywarehouse.com/item-images/125008-01_5th-avenue-candy-bars-18-piece-box.jpg"
         },
         {
-            "sys": { "id": "22" },
-            "fields": {
-                "title": "Mars",
-                "price": 2.99,
-                "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/61M8zCO7BmL._SL1200_.jpg" } } }
-            }
+            "id": "22",
+            "title": "Mars",
+            "price": 2.99,
+            "image": "https://m.media-amazon.com/images/I/61M8zCO7BmL._SL1200_.jpg"
         },
         {
-            "sys": { "id": "23" },
-            "fields": {
-                "title": "Reese’s Fast Break",
-                "price": 1.65,
-                "image": { "fields": { "file": { "url": "https://www.candywarehouse.com/item-images/133552-01_reeses-fast-break-king-size-candy-bars-18-piece-box.jpg?resizeid=102&resizeh=500&resizew=500" } } }
-            }
+            "id": "23",
+            "title": "Reese’s Fast Break",
+            "price": 1.65,
+            "image": "https://www.candywarehouse.com/item-images/133552-01_reeses-fast-break-king-size-candy-bars-18-piece-box.jpg?resizeid=102&resizeh=500&resizew=500"
         },
         {
-            "sys": { "id": "24" },
-            "fields": {
-                "title": "Milky Way",
-                "price": 2.40,
-                "image": { "fields": { "file": { "url": "https://www.milkywaybar.com/sites/g/files/fnmzdf631/files/migrate-product-files/xmp7zfxjxvldw1ezcvym.png" } } }
-            }
+            "id": "24",
+            "title": "Milky Way",
+            "price": 2.40,
+            "image": "https://www.milkywaybar.com/sites/g/files/fnmzdf631/files/migrate-product-files/xmp7zfxjxvldw1ezcvym.png"
         },
         {
-            "sys": { "id": "25" },
-            "fields": {
-                "title": "Oreo Chocolate Candy Bar",
-                "price": 1.99,
-                "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/61TLGQFFFWL._SL1200_.jpg" } } }
-            }
+            "id": "25",
+            "title": "Oreo Chocolate Candy Bar",
+            "price": 1.99,
+            "image": "https://m.media-amazon.com/images/I/61TLGQFFFWL._SL1200_.jpg"
         },
         {
-            "sys": { "id": "26" },
-            "fields": {
-                "title": "Symphony",
-                "price": 1.50,
-                "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/41S5-jur3XL._PIbundle-6,TopRight,0,0_SX500SY238SH20_.jpg" } } }
-            }
+            "id": "26",
+            "title": "Symphony",
+            "price": 1.50,
+            "image": "https://m.media-amazon.com/images/I/41S5-jur3XL._PIbundle-6,TopRight,0,0_SX500SY238SH20_.jpg"
         },
         {
-            "sys": { "id": "27" },
-            "fields": {
-                "title": "Mr. Goodbar",
-                "price": 2.20,
-                "image": { "fields": { "file": { "url": "https://www.candywarehouse.com/item-images/133775-01_mr-goodbar-chocolate-jumbo-candy-bars-12-piece-box.jpg" } } }
-            }
+            "id": "27",
+            "title": "Mr. Goodbar",
+            "price": 2.20,
+            "image": "https://www.candywarehouse.com/item-images/133775-01_mr-goodbar-chocolate-jumbo-candy-bars-12-piece-box.jpg"
         },
         {
-            "sys": { "id": "28" },
-            "fields": {
-                "title": "Hershey’s Cookies ‘n’ Creme",
-                "price": 1.75,
-                "image": { "fields": { "file": { "url": "https://www.candywarehouse.com/item-images/125888-01_hersheys-cookies-n-cream-candy-bars-36-piece-box.jpg?resizeid=102&resizeh=500&resizew=500" } } }
-            }
+            "id": "28",
+            "title": "Hershey’s Cookies ‘n’ Creme",
+            "price": 1.75,
+            "image": "https://www.candywarehouse.com/item-images/125888-01_hersheys-cookies-n-cream-candy-bars-36-piece-box.jpg?resizeid=102&resizeh=500&resizew=500"
         },
         {
-            "sys": { "id": "29" },
-            "fields": {
-                "title": "3 Musketeers",
-                "price": 2.99,
-                "image": { "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/0972/7116/products/all-city-candy-3-musketeers-candy-bar-192-oz-candy-bars-mars-chocolate-1-bar-211310_600x.jpg?v=1557238040" } } }
-            }
+            "id": "29",
+            "title": "3 Musketeers",
+            "price": 2.99,
+            "image": "https://cdn.shopify.com/s/files/1/0972/7116/products/all-city-candy-3-musketeers-candy-bar-192-oz-candy-bars-mars-chocolate-1-bar-211310_600x.jpg?v=1557238040"
         },
         {
-            "sys": { "id": "30" },
-            "fields": {
-                "title": "Hershey’s Milk Chocolate",
-                "price": 1.65,
-                "image": { "fields": { "file": { "url": "https://www.candywarehouse.com/item-images/125892-01_hersheys-milk-chocolate-bars-36-piece-box.jpg" } } }
-            }
+            "id": "30",
+            "title": "Hershey’s Milk Chocolate",
+            "price": 1.65,
+            "image": "https://www.candywarehouse.com/item-images/125892-01_hersheys-milk-chocolate-bars-36-piece-box.jpg"
         }
     ]
 }

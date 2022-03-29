@@ -1,17 +1,38 @@
-let getProducts = function() {
-    let result = fetch("/Front End Candy Shop/products.json").then(result => {
-        return result.json();
-    })
-    let data = result
+let cardBody = document.getElementById("card-body")
 
-    let products = data.items;
-    products = products.map(item => {
-        const { title, price } = item.fields;
-        const { id } = item.sys
-        const image = item.fields.image.fields.file.url;
-        return { title, price, id, image }
-    })
-    return products
+cardBody.append(getProducts());
+
+
+fetch("/Front End Candy Shop/products.json")
+    .then(res => res.json())
+    .then(json => {
+        const products = [json].map(data => [
+            console.log(data.items)
+        ])
+    });
+
+showPictures = json.items.image
+showPrice = json.items.price
+showTitle = json.items.title
+
+// for (let i = 0; i < 30; i++) {
+
+function getProducts(showPictures, showPrice, showTitle) {
+    let card = document.createElement('div');
+    card.innerHTML = `
+    <div class="products-center col">
+            <article class="product">
+                <div class="img-container">
+                    <img src="/Front End Candy Shop/assets/images/candy.jpg" alt="product 1 image" class="product-img">
+                    <button class="bag-btn">
+                        <i class="bi bi-cart-plus"></i>
+                        add to cart
+                    </button>
+                </div>
+                <h3>${showTitle}</h3>
+                <h4>$3.99</h4>
+            </article>
+        </div>
+    `;
+    return card
 }
-
-getProducts();
