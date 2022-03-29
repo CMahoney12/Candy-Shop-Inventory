@@ -1,75 +1,74 @@
 const { Candy } = require('../models');
 
-const candyData = [
-    {
-        title: 'Take 5', 
+const candyData = [{
+        title: 'Take 5',
         price: 2.25,
-        filename: ''
-    }, 
+        filename: 'Take 5.jpg'
+    },
     {
-        title: 'Butterfinger', 
+        title: 'Butterfinger',
         price: 1.65,
-        filename: ''
-    }, 
+        filename: 'Butterfinger.jpg'
+    },
     {
-        title: 'Payday', 
+        title: 'Payday',
         price: 2.40,
-        filename: ''
+        filename: 'Payday.jpg'
     },
     {
-        title: 'Snickers', 
+        title: 'Snickers',
         price: 1.99,
-        filename: ''
+        filename: 'Snickers.jpg'
     },
     {
-        title: 'Toblerone', 
+        title: 'Toblerone',
         price: 1.50,
-        filename: ''
+        filename: 'Toblerone.jpg'
     },
     {
-        title: 'Twix', 
+        title: 'Twix',
         price: 2.20,
-        filename: ''
+        filename: 'Twix.jpg'
     },
     {
-        title: 'Baby Ruth', 
+        title: 'Baby Ruth',
         price: 1.75,
-        filename: ''
+        filename: 'BabyRuth.jpg'
     },
     {
-        title: 'Whatchamacallit', 
+        title: 'Whatchamacallit',
         price: 2.99,
-        filename: ''
+        filename: 'Whatchamacallit.jpg'
     },
     {
-        title: 'Charleston Chew', 
+        title: 'Charleston Chew',
         price: 1.65,
-        filename: ''
+        filename: 'Charleston Chew.jpg'
     },
     {
-        title: 'Cadbury Flake', 
+        title: 'Cadbury Flake',
         price: 1.99,
-        filename: ''
+        filename: 'Cadbury Flake.webp'
     },
     {
-        title: 'Kit Kat', 
+        title: 'Kit Kat',
         price: 1.50,
-        filename: ''
+        filename: 'Kit Kat.jpeg'
     },
     {
-        title: 'Almond Joy', 
+        title: 'Almond Joy',
         price: 1.75,
-        filename: ''
+        filename: 'Almond Joy.jpg'
     },
     {
-        title: "Hershey's Special Dark", 
+        title: "Hershey's Special Dark",
         price: 2.99,
-        filename: ''
+        filename: "Hershey's Special Dark.webp"
     },
     {
-        title: "Nestle Crunch", 
+        title: "Nestle Crunch",
         price: 1.50,
-        filename: ''
+        filename: 'Nestle Crunch.webp'
     }
 ]
 
