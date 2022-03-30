@@ -1,4 +1,4 @@
-<div class="col">
+{{!-- <div class="col">
     <div class="card">
         <img src="/images/candy.jpg" class="card-img-top">
         <div class="card-body">
@@ -10,4 +10,17 @@
         </div>
     </div>
 </div>
-    
+     --}}
+<div style="padding: 10px;">
+    <div class="card border border-dark" style="width: 18rem; box-shadow: 5px 5px;">
+        <img style="width: 18rem; height:15rem;" src="images/{{ filename }}" class="card-img-top">
+        <div class="list-group" style=" text-align: center; justify-content: center;">
+            <div class="card-body" style="background-color: lightgray;">
+                <h2 style="background-color: gray; color: white;"></h2>
+                <a href="/candies/{{ id }}" class="list-group-item list-group-item-action">{{ title }}</a>
+                <p style="background-color: lightgray;">Price: ${{ price }}</p>
+                <p style="background-color: lightgray;">Qty: {{ quantity }}</p>
+            </div>
+        </div>
+    </div>
+</div>

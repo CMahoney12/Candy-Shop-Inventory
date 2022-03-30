@@ -1,9 +1,17 @@
-// const cartBtn = document.querySelector('.cart-btn');
-// const closeCartBtn = document.querySelector('.close-cart');
-// const clearCartBtn = document.querySelector('.clear-cart');
-// const cartDOM = document.querySelector('.cart');
-// const cartOverlay = document.querySelector('.cart-overlay');
-// const cartItems = document.querySelector('.cart-items');
-// const cartTotal = document.querySelector('.cart-total');
-// const cartContent = document.querySelector('.cart-content');
-// const productsDOM = document.querySelector('.products-center');
+function fetchData() {
+    fetch("/Front End Candy Shop/products.json")
+        .then(response => {
+            console.log(response);
+            if (!response.ok) {
+                throw Error("ERROR");
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log(data.items);
+        }).catch(error => {
+            console.log(error);
+        });
+}
+
+fetchData();

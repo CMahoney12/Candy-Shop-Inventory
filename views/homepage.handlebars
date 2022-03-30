@@ -1,6 +1,7 @@
-<div style="text-align: center; margin: 2rem;">
-  <h1>Candy Shop Inventory</h1>
+<div class="cardA" style="text-align: center; justify-content: center;">
+  <h1>Inventory Selection</h1>
 </div>
+
 
 <section class="add-candy">
   <h3>Create New Candy</h3>
@@ -14,10 +15,12 @@
   </form>
 </section>
 
-<div class="row row-cols-1 row-cols-md-4 g-4">
-    {{#each candies as |candy|}}
-      {{> candy-info candy}}
-    {{/each}}
+<div class="" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+{{#each candies as |candy|}}
+{{> candy-info candy}}
+{{/each}}
 </div>
 
 <script src="/javascript/add-candy.js"></script>
+
+

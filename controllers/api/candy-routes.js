@@ -57,7 +57,7 @@ router.put('/:id', withAuth, (req, res) => {
     {
       title: req.body.title,
       price: req.body.price,
-      quantity: req.body.quantity
+      quantity: req.body.quantity,
     },
     {
         where: {
