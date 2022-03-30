@@ -4,7 +4,7 @@
 
 <section class="add-candy">
   <h3>Create New Candy</h3>
-  <form class="new-candy-form">
+  <form class="new-candy-form" role="form" method="post" action="/api/candies" enctype="multipart/form-data">
     <div class="input-group flex-nowrap">
       <input type="text" id="candy-title" name="candy-title" class="form-control" placeholder="Name" aria-label="price" aria-describedby="addon-wrapping">
       <input type="text" name="price" class="form-control" placeholder="Price" aria-label="price" aria-describedby="addon-wrapping">

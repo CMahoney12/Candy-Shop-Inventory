@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const withAuth = require('../../utils/auth')
 const { User, Candy } = require('../../models');
 
 // GET /api/candies
@@ -37,12 +38,12 @@ router.get('/:id', (req, res) => {
         });
 });
 
-router.post('/', (req, res) => {
+router.post('/', withAuth, (req, res) => {
   Candy.create({
       title: req.body.title,
       price: req.body.price,
       quantity: req.body.quantity,
-      filename: "candy.jpg"
+      filename: "candy.jpg",
   })
       .then(dbCandyData => res.json(dbCandyData))
       .catch(err => {
@@ -51,7 +52,7 @@ router.post('/', (req, res) => {
       });
 });
 
-router.put('/:id', (req, res) => {
+router.put('/:id', withAuth, (req, res) => {
   Candy.update(
     {
       title: req.body.title,
@@ -77,7 +78,7 @@ router.put('/:id', (req, res) => {
       });
 });
 
-router.delete('/:id', (req, res) => {
+router.delete('/:id', withAuth, (req, res) => {
   Candy.destroy({
     where: {
       id: req.params.id

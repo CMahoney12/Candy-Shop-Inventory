@@ -1,6 +1,6 @@
 // import models
 const Candy = require('./Candy');
-const User = require('./Users');
+const User = require('./User');
 
 // Candies belongsTo User
 Candy.belongsTo(User, {

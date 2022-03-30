@@ -1,5 +1,6 @@
 const router = require('express').Router();
-const { User, Candy } = require('../models');
+const withAuth = require('../utils/auth');
+const Candy = require('../models/Candy');
 
 // get all candies
 router.get('/', (req, res) => {
@@ -33,7 +34,8 @@ router.get('/signup', (req, res) => {
     res.render('signup');
 });
 
-router.get('/candies/:id', (req, res) => {
+// edit candy
+router.get('/candies/:id', withAuth, (req, res) => {
     Candy.findOne({
         where: {
             id: req.params.id

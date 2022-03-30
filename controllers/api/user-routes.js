@@ -1,4 +1,5 @@
 const router = require('express').Router();
+// const { isAuth, userExists, validPassword } = require('../../utils');
 const { User, Candy } = require('../../models');
 
 // GET /api/users
