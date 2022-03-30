@@ -1,12 +1,12 @@
-<div class="list-group" style=" text-align: center; justify-content: center;">
-    <h2 style="background-color: gray; color: white;"></h2>
-    <a href="/candies/{{ id }}" class="list-group-item list-group-item-action">{{ title }}</a>
-    <p>${{ price }}</p>
-    <img src= "images/{{ filename }}" />
-    {{!-- <a href="#" class="list-group-item list-group-item-action"></a>
-    <a href="#" class="list-group-item list-group-item-action"></a>
-    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true"></a> --}}
+<div class="d-flex" style="padding: 10px;">
+    <div class="card" style="width: 18rem;">
+        <img style="width:18rem;height:15rem;" src="images/{{ filename }}" class="card-img-top">
+        <div class="list-group" style=" text-align: center; justify-content: center;">
+            <div class="card-body" style="background-color: lightgray;">
+                <h2 style="background-color: gray; color: white;"></h2>
+                <a href="/candies/{{ id }}" class="list-group-item list-group-item-action">{{ title }}</a>
+                <p style="background-color: lightgray;">${{ price }}</p>
+            </div>
+        </div>
     </div>
-    
-    <img id="logoImg" src="" width="950px" height="500px">
 </div>
