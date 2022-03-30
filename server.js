@@ -40,8 +40,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(session(sess));
 
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({ extended: false }));
+// app.use(bodyParser.json());
 
 app.use(passport.initialize());
 app.use(passport.session(sess));
