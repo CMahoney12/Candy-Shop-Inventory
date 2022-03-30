@@ -53,6 +53,7 @@ router.get('/candies/:id', withAuth, (req, res) => {
             // pass data to template
             res.render('edit-candy', { 
               candy,
+              loggedIn: req.session.loggedIn
             });
         })
         .catch(err => {

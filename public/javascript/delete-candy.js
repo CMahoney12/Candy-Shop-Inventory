@@ -16,4 +16,4 @@ async function deleteFormHandler(event) {
     };
   }
   
-  document.querySelector('.delete-candy-btn').addEventListener('click', deleteFormHandler);
+  document.querySelector('.delete-btn').addEventListener('click', deleteFormHandler);

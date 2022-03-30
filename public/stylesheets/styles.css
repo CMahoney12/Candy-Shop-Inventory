@@ -277,7 +277,7 @@ p {
     width: 8rem;
 }
 
-.edit-btn {
+.edit-btn, .delete-btn {
     background-color: #222;
     border: 0;
     padding: 1%;

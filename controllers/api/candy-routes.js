@@ -53,48 +53,55 @@ router.post('/', withAuth, (req, res) => {
 });
 
 router.put('/:id', withAuth, (req, res) => {
-  Candy.update(
-    {
-      title: req.body.title,
-      price: req.body.price,
-      quantity: req.body.quantity,
-    },
-    {
+  // check the session
+  if (req.session) {
+    Candy.update(
+      {
+        title: req.body.title,
+        price: req.body.price,
+        quantity: req.body.quantity,
+        user_id: req.session.user_id,
+      },
+      {
         where: {
             id: req.params.id
         }
-    }
-  )
-      .then(dbCandyData => {
-          if (!dbCandyData) {
-              res.status(404).json({ message: 'No candy found with this id' });
-              return;
-          }
-          res.json(dbCandyData);
-      })
-      .catch(err => {
-          console.log(err);
-          res.status(500).json(err);
-      });
+      }
+    )
+        .then(dbCandyData => {
+            if (!dbCandyData) {
+                res.status(404).json({ message: 'No candy found with this id' });
+                return;
+            }
+            res.json(dbCandyData);
+        })
+        .catch(err => {
+            console.log(err);
+            res.status(500).json(err);
+        });
+  }
 });
 
 router.delete('/:id', withAuth, (req, res) => {
-  Candy.destroy({
-    where: {
-      id: req.params.id
-    }
-  })
-      .then(dbCandyData => {
-          if (!dbCandyData) {
-              res.status(404).json({ message: 'No candy found with this id' });
-              return;
-          }
-          res.json(dbCandyData);
-      })
-      .catch(err => {
-          console.log(err);
-          res.status(500).json(err);
-      });
+  // check the session
+  if (req.session) {
+    Candy.destroy({
+      where: {
+        id: req.params.id
+      }
+    })
+        .then(dbCandyData => {
+            if (!dbCandyData) {
+                res.status(404).json({ message: 'No candy found with this id' });
+                return;
+            }
+            res.json(dbCandyData);
+        })
+        .catch(err => {
+            console.log(err);
+            res.status(500).json(err);
+        });
+  }
 });
 
 
