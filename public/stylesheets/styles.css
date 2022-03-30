@@ -301,7 +301,7 @@ body {
     width: 8rem;
 }
 
-button {
+.edit-btn {
     background-color: #fcbf49;
     border: 0;
     padding: 1%;
@@ -332,4 +332,25 @@ button {
 .add-btn {
     margin-left: 0;
     margin-bottom: 2rem;
+    background-color: #fcbf49;
+    border: 0;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    transition: background-color .1s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 3.5rem;
 }
+
+.btn-no-style {
+    background: none;
+    border: none;
+    padding-top: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(255,255,255,.5);;
+    font-size: 100%;
+    transition: color .1s;
+    margin-left: 10px;
+  }

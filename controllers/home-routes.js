@@ -28,6 +28,11 @@ router.get('/login', (req, res) => {
     res.render('login');
 });
 
+//sign up
+router.get('/signup', (req, res) => {
+    res.render('signup');
+});
+
 router.get('/candies/:id', (req, res) => {
     Candy.findOne({
         where: {

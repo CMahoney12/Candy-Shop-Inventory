@@ -46,12 +46,18 @@
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
-            {{!-- <li class="nav-item">
-              <a class="nav-link" href="/browse">Browse</a>
-            </li> --}}
+            {{#if loggedIn}}
+            <li class="nav-item">
+              <button id="logout" class="btn-no-style">Log out</button>
+            </li>
+            {{else}}
+            <li class="nav-item">
+              <a class="nav-link" href="/signup">Sign up</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="/login">Log in</a>
             </li>
+            {{/if}}
           </ul>
         </div>
       </nav>  {{!-- /Navbar --}}
@@ -86,5 +92,14 @@
 
     <!-- Moments.js -->
     <script src="https://momentjs.com/downloads/moment-with-locales.js"></script>
+
+    {{#if loggedIn}}
+      <script src="/javascript/logout.js"></script>
+    {{else}}
+      <script src="/javascript/login.js"></script>
+      <script src="/javascript/signup.js"></script>
+    {{/if}}
+
   </body>
 </html>
+

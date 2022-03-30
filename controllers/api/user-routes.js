@@ -40,7 +40,7 @@ router.get('/:id', (req, res) => {
         });
 });
 
-// POST /api/users creat a user
+// POST /api/users sign up 
 router.post('/', (req, res) => {
     User.create({
         username: req.body.username,
