@@ -41,7 +41,7 @@ const candyData = [{
         title: 'Baby Ruth',
         price: 1.75,
         quantity: 90,
-        filename: 'BabyRuth.jpg'
+        filename: 'Baby Ruth.jpg'
     },
     {
         title: 'Whatchamacallit',
@@ -59,13 +59,13 @@ const candyData = [{
         title: 'Cadbury Flake',
         price: 1.99,
         quantity: 400,
-        filename: 'Cadbury Flake.webp'
+        filename: 'Cadbury Flake.jpg'
     },
     {
         title: 'Kit Kat',
         price: 1.50,
         quantity: 100,
-        filename: 'Kit Kat.jpeg'
+        filename: 'Kit Kat.jpg'
     },
     {
         title: 'Almond Joy',
@@ -77,13 +77,13 @@ const candyData = [{
         title: "Hershey's Special Dark",
         price: 2.99,
         quantity: 300,
-        filename: "Hershey's Special Dark.webp"
+        filename: "Hershey's Special Dark.jpg"
     },
     {
         title: "Nestle Crunch",
         price: 1.50,
         quantity: 250,
-        filename: 'Nestle Crunch.webp'
+        filename: 'Nestle Crunch.jpg'
     },
     {
         title: 'Butterfinger',
@@ -113,13 +113,13 @@ const candyData = [{
         title: 'Nestle Crunch',
         price: 2.20,
         quantity: 250,
-        filename: 'Nestle Crunch.webp'
+        filename: 'Nestle Crunch.jpg'
     },
     {
         title: '100 Grand',
         price: 1.75,
         quantity: 250,
-        filename: '100 Grand.webp'
+        filename: '100 Grand.jpg'
     },
     {
         title: '5th Avenue',
@@ -143,7 +143,7 @@ const candyData = [{
         title: 'Milky Way',
         price: 1.50,
         quantity: 250,
-        filename: 'Milky Way.png'
+        filename: 'Milky Way.jpg'
     },
     {
         title: 'Oreo Chocolate Candy Bar',
@@ -173,7 +173,7 @@ const candyData = [{
         title: "3 Musketeers",
         price: 1.50,
         quantity: 250,
-        filename: '3 Musketeers.webp'
+        filename: '3 Musketeers.jpg'
     },
     {
         title: "Hershey's Milk Chocolate",
