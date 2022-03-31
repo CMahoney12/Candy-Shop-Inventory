@@ -43,7 +43,7 @@ router.post('/', withAuth, (req, res) => {
       title: req.body.title,
       price: req.body.price,
       quantity: req.body.quantity,
-      filename: "candy.jpg",
+      filename: req.body.filename
   })
       .then(dbCandyData => res.json(dbCandyData))
       .catch(err => {
