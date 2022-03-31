@@ -4,13 +4,15 @@ async function newFormHandler(event) {
     const title = document.querySelector('input[name="candy-title"]').value;
     const price = document.querySelector('input[name="price"]').value;
     const quantity = document.querySelector('input[name="quantity"]').value;
-  
+    const filename = title + ".jpg"
+
     const response = await fetch(`/api/candies`, {
       method: 'POST',
       body: JSON.stringify({
         title,
         price,
-        quantity
+        quantity,
+        filename
       }),
       headers: {
         'Content-Type': 'application/json'
