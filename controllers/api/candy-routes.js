@@ -39,17 +39,17 @@ router.get('/:id', (req, res) => {
 });
 
 router.post('/', withAuth, (req, res) => {
-  Candy.create({
-      title: req.body.title,
-      price: req.body.price,
-      quantity: req.body.quantity,
-      filename: req.body.filename,
-  })
-      .then(dbCandyData => res.json(dbCandyData))
-      .catch(err => {
-          console.log(err);
-          res.status(500).json(err);
-      });
+    Candy.create({
+        title: req.body.title,
+        price: req.body.price,
+        quantity: req.body.quantity,
+        filename: req.body.filename,
+    })
+        .then(dbCandyData => res.json(dbCandyData))
+        .catch(err => {
+            console.log(err);
+            res.status(500).json(err);
+        });
 });
 
 router.put('/:id', withAuth, (req, res) => {

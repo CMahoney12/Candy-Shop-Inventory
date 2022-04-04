@@ -86,16 +86,10 @@ const candyData = [{
         filename: 'Nestle Crunch.jpg'
     },
     {
-        title: 'Butterfinger',
-        price: 1.65,
-        quantity: 250,
-        filename: 'Butterfinger.jpg'
-    },
-    {
         title: 'Chunky',
         price: 2.40,
         quantity: 250,
-        filename: 'Chunky Bar.jpg'
+        filename: 'Chunky.jpg'
     },
     {
         title: 'Mounds',
@@ -107,13 +101,7 @@ const candyData = [{
         title: 'Bounty',
         price: 1.50,
         quantity: 250,
-        filename: 'Bounty-Bar.jpg'
-    },
-    {
-        title: 'Nestle Crunch',
-        price: 2.20,
-        quantity: 250,
-        filename: 'Nestle Crunch.jpg'
+        filename: 'Bounty.jpg'
     },
     {
         title: '100 Grand',

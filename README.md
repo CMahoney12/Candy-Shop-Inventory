@@ -1,35 +1,15 @@
 # Candy-Shop-Inventory
 
-deployed website: https://candy-shop-e-commerce.herokuapp.com/
+This repo houses the assets used to build Candy Shop Inventory, availabe at: https://candy-shop-e-commerce.herokuapp.com/
 
-Your project should fulfill the following requirements:
+## Description
 
-Use Node.js and Express.js to create a RESTful API.
+Candy Shop Inventory is an inventory management application. It has a databse of price, quantity, and products of canides and a manager can create, update and delete the data in the application. 
 
-Use Handlebars.js as the templating engine.
+## Screenshot
 
-Use MySQL and the Sequelize ORM for the database.
+<img src = "./public/images/screenshot.png">
 
-Have both GET and POST routes for retrieving and adding new data.
+## Questions
 
-Be deployed using Heroku (with data).
-
-Use at least one new library, package, or technology that we haven’t discussed.
-
-Have a polished UI.
-
-Be responsive.
-
-Be interactive (i.e., accept and respond to user input).
-
-Have a folder structure that meets the MVC paradigm.
-
-Include authentication (express-session and cookies).
-
-Protect API keys and sensitive information with environment variables.
-
-Have a clean repository that meets quality coding standards (file structure, naming conventions, best practices for class/id naming conventions, indentation, quality comments, etc.).
-
-Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
-
-Finally, you must add your project to the portfolio that you created in Module 2.
+https://github.com/CMahoney12/Candy-Shop-Inventory
